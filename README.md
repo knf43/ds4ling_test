@@ -14,3 +14,6 @@
 - Ying. I like yellow and blue. [website](https://ling.rutgers.edu)
 - Charles. I like green. [website](https://wwww.charles.com)
 - Jukun. I like blue. [website](https://www.Jukun.com)
+
+**be the change, you want to see in the world**
+and bring the *laptop*
