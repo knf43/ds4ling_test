@@ -1,0 +1,56 @@
+---
+title: "Play"
+author: "Kaylee"
+date: "2025-02-03"
+output: 
+  html_document: 
+    toc: true
+    highlight: pygments
+    theme: yeti
+---
+# Section
+## Subsection
+
+**this is bold**
+
+- this 
+- is 
+- a 
+- list
+
+1. stage 1
+2. stage 2
+3. stage 3
+
+```{r}
+#| label: test
+2+2
+```
+
+
+```{r}
+#| label: fig-cars
+#| message: false
+#| warning: false
+#| echo: false #to hide the code
+#| out-width: "100%" # to adjust the width of the figure
+library("tidyverse")
+ggplot(mtcars) +
+  aes(x = drat, y = mpg) + #the variables
+  geom_point() + #adding the geom point
+  geom_smooth(method = "lm") #fitting the model
+```
+
+
+```{r}
+#| label: in-line-code
+#| echo: false
+
+x <- 2+2
+```
+
+Hello this is prose. 
+The bilingual group had a mean of `r x`
+
+
+
